@@ -2,7 +2,7 @@ import java.util.*;
 
 class practice {
     public static void main(String[] args) {
-        // Hollow Cube
+        // {Hollow Cube}
         // int rows = 5;
         // int colum = 4;
         // for (int i = 0; i < rows; i++) {
@@ -18,14 +18,23 @@ class practice {
 
         // }
 
-        int n = 5;
-        for (int i = 0; i < n; i++) {
+        // { Pyramid }
+        // int n = 5;
+        // for (int i = 0; i < n; i++) {
 
+        // for (int j = 0; j < i; j++) {
+        // System.out.print("*");
+        // }
+        // System.out.println();
+        // }
+
+        // {Reverse Pyramid}
+        int n = 6;
+        for (int i = n; i > 0; i--) {
             for (int j = 0; j < i; j++) {
                 System.out.print("*");
             }
             System.out.println();
         }
-
     }
 }
