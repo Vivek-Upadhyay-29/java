@@ -45,17 +45,34 @@ class practice {
         // System.out.println();
         // }
 
-        int n = 5;
-        for (int i = 0; i < n; i++) {
-            for (int j = n; j > i; j--) {
-                System.out.print(" ");
-            }
+        // Rohmbus Patter
+        // int n = 5;
+        // for (int i = 0; i < n; i++) {
+        // for (int j = n; j > i; j--) {
+        // System.out.print(" ");
+        // }
 
-            for (int k = 0; k < n; k++) {
-                System.out.print("*");
-            }
-            System.out.println();
-        }
+        // for (int k = 0; k < n; k++) {
+        // System.out.print("*");
+        // }
+        // System.out.println();
+        // }
+
+        // Number Pyramid
+
+        // System.out.println("Enter the number");
+        // Scanner sc = new Scanner(System.in);
+        // int n = 5;
+        /// Number Pyramid
+        // for (int i = 0; i < n; i++) {
+        // for (int j = n; j > i; j--) {
+        // System.out.print(" ");
+        // }
+        // for (int k = 1; k <= i + 1; k++) {
+        // System.out.print(" " + k);
+        // }
+        // System.out.println("");
+        // }
 
     }
 }
