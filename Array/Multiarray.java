@@ -9,7 +9,7 @@ public class Multiarray {
         int colums = sc.nextInt();
         int numbers[][] = new int[rows][colums];
 
-        /// input
+        //// input
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < colums; j++) {
                 numbers[i][j] = sc.nextInt();
