@@ -7,7 +7,7 @@ public class Calculator {
         int a = sc.nextInt();
         int b = sc.nextInt();
         System.out
-                .print(" Enter the value of a & b and select the operation : \n 1 for add \n 2 for sub \n 3 for multi");
+                .print(" Enter the value of a & b and select the operation : \n 1 for add \n 2 for sub \n 3 for multiplication");
 
         int operation = sc.nextInt();
         switch (operation) {
