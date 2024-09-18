@@ -16,16 +16,23 @@ public class practice {
         // System.out.println("Your name is " + name + " " + nameee);
         //
 
-        Scanner sc = new Scanner(System.in);
-        int size = sc.nextInt();
-        int toole = 0;
-        String arr[] = new String[size];
-        for (int i = 0; i < size; i++) {
-            arr[i] = sc.next();
+        // Scanner sc = new Scanner(System.in);
+        // int size = sc.nextInt();
+        // int toole = 0;
+        // String arr[] = new String[size];
+        // for (int i = 0; i < size; i++) {
+        // arr[i] = sc.next();
 
-            toole += arr[i].length();
+        // toole += arr[i].length();
+        // }
+        // System.out.println(toole);
+        Scanner sc = new Scanner(System.in);
+        int fact = sc.nextInt();
+        int sum = 1;
+        for (int i = 1; i <= fact; i++) {
+            sum += sum * i;
         }
-        System.out.println(toole);
+        System.out.println(sum);
 
     }
 }
