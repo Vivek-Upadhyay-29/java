@@ -2,7 +2,7 @@ import java.util.*;
 
 public class linearSearch {
     public static void main(String[] args) {
-        System.out.println("enter the size of array");
+        System.out.println("enter the size of an array");
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
         int[] numArr = new int[size];
